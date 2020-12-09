@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Donations from "../components/Donations";
+import MastHead from "../components/MastHead";
 
 /**
  *  @description
@@ -16,6 +17,7 @@ import Donations from "../components/Donations";
 function Home() {
   return (
     <div>
+      <MastHead/>
       <Navbar />
       <section>
         <div className="container">
