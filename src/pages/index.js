@@ -18,17 +18,18 @@ function Home() {
   return (
     <div>
       <MastHead/>
-      <Navbar />
+      <Navbar/>
       <section>
         <div className="container">
           <h1>Welcome to Here</h1>
           <p>
             Hello World!
           </p>
+          <a href="https://geekout-sigma.vercel.app/" target="_blank">click me for the inferior website.</a>
         </div>
       </section>
-      <Donations />
-      <Footer />
+      <Donations/>
+      <Footer/>
     </div>
   );
 }
